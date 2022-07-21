@@ -1,8 +1,21 @@
+import styled from "styled-components";
+import Menu from "./components/Menu";
+import Navbar from "./components/Navbar";
+
+const Container = styled.div`
+
+`
+
+const Main = styled.div``;
+
 function App() {
   return (
-    <div>
-      Hello world!
-    </div>
+    <Container>
+      <Menu/>
+      <Main>
+        <Navbar/>
+      </Main>
+    </Container>
   );
 }
 
