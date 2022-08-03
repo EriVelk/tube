@@ -87,7 +87,7 @@ const Menu =  ({ darkMode, setDarkMode }) => {
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
             <Img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/RPC-JP_Logo.png" />
-            LamaTube
+            VideoTube
           </Logo>
         </Link>
         <Item>
